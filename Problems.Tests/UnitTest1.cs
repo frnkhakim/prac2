@@ -33,7 +33,7 @@ namespace Problems.Tests
         public void Test2()
         {
            
-            Assert.IsNotEmpty(Program.Prefix(""));
+            Assert.IsNotEmpty(Program.Prefix("4"));
         }
 
           [Test]

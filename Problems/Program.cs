@@ -10,12 +10,20 @@ namespace Problems
 		}
 
 		public static string Prefix(String x)
-		{
-			int length = x.Length;
-			string[] words = x.Split(' ');
-			int wrd = words.Length;
+		{	
+			if (x == null)
+				return null;
+
+
+			else{
+				int length = x.Length;
+				string[] words = x.Split(' ');
+				int wrd = words.Length;
 			
-			return(length + "," + wrd + ":" + x);
+				return(length + "," + wrd + ":" + x);
+
+			}
+			
 		}
 	}
 }
